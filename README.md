@@ -1,16 +1,49 @@
-# login_ui
 
-A new Flutter project.
+# Login UI Design
 
-## Getting Started
+This is a simple Flutter application showcasing a basic login page with minimal functionality.
 
-This project is a starting point for a Flutter application.
+## Description
 
-A few resources to get you started if this is your first Flutter project:
+The application demonstrates a login screen with:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Username and password fields.
+- "Forgot Password?" link.
+- "Create Account" link to navigate to a sign-up page.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It uses basic UI elements such as `TextField`, `MaterialButton`, and animations from the `animate_do` package.
+
+## Features
+
+- User login using provided username and password.
+- Password recovery via "Forgot Password?" link.
+- Navigation to the sign-up page using the "Create Account" link.
+
+## Installation
+
+To run this application:
+
+1. Ensure you have Flutter installed.
+2. Clone this repository.
+3. Run `flutter pub get` to install the required dependencies.
+4. Connect a device or use an emulator.
+5. Run `flutter run` in the project directory.
+
+## Usage
+
+- The login button currently does not have authentication logic.
+- The "Forgot Password?" and "Create Account" links don't navigate to specific pages.
+
+## Roadmap
+
+Future updates might include:
+
+- Implementing authentication logic.
+- Adding functionality to the "Forgot Password?" link.
+- Creating the sign-up page and its related functionality.
+
+
+## Acknowledgements
+
+- This project uses the `animate_do` package for animations.
+
